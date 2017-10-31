@@ -6,7 +6,7 @@ import React from 'react'
 import { darkBlack } from 'material-ui/styles/colors'
 
 const BottomToolbar = ({
-  open = false,
+  open = true,
   children,
   className
 }: {
@@ -20,12 +20,13 @@ const BottomToolbar = ({
       open={open}
       docked
       containerStyle={{
-        top: 'inherit',
+        top: '64px',
         bottom: '0px',
-        height: 'auto',
+        height: 'calc(100vh - 64px)',
         margin: '0 auto',
         left: '0',
         right: '0',
+        maxWidth: '250px',
         width: 'auto',
         transform: `translate(0, ${open ? '0' : '300px'})`,
         textAlign: 'center',
