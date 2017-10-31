@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "ory-editor",
   "author": "ORY GmbH",
   "license": "GNU Lesser General Public License v3.0",
   "devDependencies": {
