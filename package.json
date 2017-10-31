@@ -2,6 +2,8 @@
   "private": true,
   "name": "ory-editor",
   "author": "ORY GmbH",
+  "version": "1.0.0",
+  "description": "WYSIWYG editor for patient point portal",
   "license": "GNU Lesser General Public License v3.0",
   "devDependencies": {
     "babel-cli": "^6.26.0",
